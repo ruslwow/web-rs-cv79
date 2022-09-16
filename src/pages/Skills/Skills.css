@@ -1,0 +1,51 @@
+
+.container_skills {
+    height: max-content;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+   
+}
+
+.skills_card {
+   margin: 0 auto;
+   height: max-content;
+    
+}
+.slider_clases {
+    margin-left: 50px;
+}
+
+.slider_clases {
+    margin-left: 100px;
+}
+.exp_tittle {
+   display: flex;
+   flex-direction: row;
+   width: max-content;
+   margin-bottom: 100px;
+   margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 1340px) {
+    .skills_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 25px;
+    }
+
+    .container_skills {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container_skills {
+        margin-top: 33%;
+    }
+}
