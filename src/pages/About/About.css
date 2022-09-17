@@ -47,4 +47,10 @@
     .text_content {
         margin-top: 10%;
     }
+  .about {
+  padding: 50px;
+  height: max-content;
+  display: flex;
+  align-items: center;
+} 
 }
